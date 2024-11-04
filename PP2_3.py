@@ -17,8 +17,6 @@ def q2():
     print(f"{num} is positive")
   elif num < 0:
     print(f"{num} is negative")
-  else:
-    print("")
 
 def q3():
   num1 = float(input("Input a number: ")
