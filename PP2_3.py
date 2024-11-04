@@ -31,7 +31,7 @@ def q3():
   elif num1 == num2 and num2 != num3 or num1 != num2 and num2 == num3:
     print("Isosceles")
   else:
-    print(Scalene)
+    print("Scalene")
 
 
 
