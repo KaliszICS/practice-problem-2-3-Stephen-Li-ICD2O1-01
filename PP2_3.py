@@ -1,12 +1,12 @@
 
 
 def q1(): 
-  word = input("In: )
-  if word[-1:] == "y":
-    print("-ies")
+  word = input("In: ")
   if word[-2:] == "ey":
     print("-eys")
-  if word[-3:] == "ife":
+  elif word[-1:] == "y":
+    print("-ies")
+  elif word[-3:] == "ife":
     print("-ives")
   else:
     print("-s")
